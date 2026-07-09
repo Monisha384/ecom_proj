@@ -449,6 +449,16 @@ body {
   font-size: 1rem;
   transition: all 0.3s ease;
   background: #f8f9fa;
+  color: #000000;
+}
+.form-group textarea {
+  color: #000000;
+  background: #f8f9fa;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #777;
 }
 
 .form-group input:focus {
